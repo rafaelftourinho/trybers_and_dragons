@@ -61,7 +61,7 @@ export default class Character implements Fighter {
 
     if (damageGiven > 0) this._lifePoints -= damageGiven;
     if (damageGiven <= 0) this._lifePoints -= 1;
-    if (this._lifePoints <= 0) this._lifePoints = 1;
+    if (this._lifePoints <= 0) this._lifePoints = -1;
     
     return this._lifePoints;
   }
