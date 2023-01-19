@@ -2,8 +2,8 @@ import Fighter, { SimpleFighter } from '../Fighter';
 import Battle from './Battle';
 
 export default class PVE extends Battle {
-  private _p: Fighter;
-  private _enemy: (Fighter | SimpleFighter)[];
+  private _p;
+  private _enemy;
 
   constructor(p: Fighter, enemy: (Fighter | SimpleFighter)[]) {
     super(p);

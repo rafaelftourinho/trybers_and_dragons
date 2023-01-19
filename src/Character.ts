@@ -5,14 +5,14 @@ import Race, { Elf } from './Races';
 import getRandomInt from './utils';
 
 export default class Character implements Fighter {
-  private _race: Race;
-  private _archetype: Archetype;
-  private _maxLifePoints: number;
-  private _lifePoints: number;
-  private _strength: number;
-  private _defense: number;
-  private _dexterity: number;
-  private _energy: Energy;
+  private _race;
+  private _archetype;
+  private _maxLifePoints;
+  private _lifePoints;
+  private _strength;
+  private _defense;
+  private _dexterity;
+  private _energy;
 
   constructor(name: string) {
     this._dexterity = getRandomInt(1, 10);
