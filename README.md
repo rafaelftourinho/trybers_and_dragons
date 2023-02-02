@@ -1,4 +1,4 @@
-<h1 align="center">🎉 Projeto Trybers and Dragons </h1>
+<h1 align="center"> Projeto Trybers and Dragons </h1>
 
 ![project_trybers_and_dragons](https://user-images.githubusercontent.com/104791582/215762786-64898841-d6b0-4ae2-96e4-bd4c49aa48dd.jpg)
 
